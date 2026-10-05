@@ -1,0 +1,11 @@
+.venv/
+.uv-cache/
+artifacts/
+__pycache__/
+*.pyc
+.omx/
+.agents/
+.codex/
+.aws/
+.env
+.env.*

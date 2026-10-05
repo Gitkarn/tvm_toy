@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. 순수 Python 계산",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/examples/01_reference.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "2. TensorIR와 스케줄",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/examples/02_tensorir.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "3. Relax와 VM",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/examples/03_relax.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "TVM 내부 Python 추적 (현재 파일)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}

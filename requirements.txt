@@ -1,0 +1,2 @@
+apache-tvm==0.27.0.post1
+numpy>=1.26,<3
